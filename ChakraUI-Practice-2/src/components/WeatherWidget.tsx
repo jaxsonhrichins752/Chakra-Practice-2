@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Card, Text, Heading, Box, Stack } from '@chakra-ui/react';
+import { Card, Text, Heading, Stack } from '@chakra-ui/react';
 
 const WeatherWidget = () => {
   const [weather, setWeather] = useState(null);
